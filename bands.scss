@@ -1,0 +1,17 @@
+%band-name {
+  font: sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+}
+
+p {
+  font-size: 10px;
+  text-align: left;
+}
+
+h2 {
+  .band-name: %band-name;
+}
