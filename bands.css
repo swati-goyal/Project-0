@@ -6,13 +6,11 @@
   text-align: center;
 }
 
-#footer {
-  border: 5px ridge #1C6EA4;
-  position: fixed;
-  bottom: 0;
+#header {
+  border: 5px #1C6EA4;
   width: 100%;
   text-align: center;
-  padding:30px;
+  padding:20px;
 }
 
 div > a {
@@ -21,4 +19,10 @@ div > a {
   text-align: center;
   border-color: blue;
   color:black;
+}
+
+.picture{
+  align-self: flex-start;
+  width: 200px;
+  height: 200px;
 }

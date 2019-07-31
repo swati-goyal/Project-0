@@ -13,24 +13,30 @@
     margin: 20px;
   }
   img {
-    height: fixed 700px;
+    height: 700px;
   }
+  @media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
   </style>
 </head>
 <body>
 
-  <div class="jumbotron text-center" style="margin-bottom:0">
+  <div class="jumbotron text-center">
     <h1>BAND-IT</h1>
     <p>This website is about great bands.</p>
   </div>
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">BANDS:</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#band-links">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="band-links">
+      <ul class="nav navbar-nav navbar-center">
         <li class="nav-item">
           <a class="nav-link" href="tool.html">TOOL</a>
         </li>
