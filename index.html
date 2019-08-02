@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Band-it</title>
+  <title>BAND/IT</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,44 +10,44 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
   #footer{
-    margin: 20px;
+    margin-block-start: 20px;
   }
   img {
     height: 700px;
   }
-  @media (min-width: 768px) {
-  .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+  @media(min-width:768px) {
+    .nav.justify-content-center{
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
-}
   </style>
 </head>
 <body>
 
   <div class="jumbotron text-center">
-    <h1>BAND-IT</h1>
+    <h1>BAND/IT</h1>
     <p>This website is about great bands.</p>
   </div>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#band-links">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="band-links">
-      <ul class="nav navbar-nav navbar-center">
+      <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="tool.html">TOOL</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="mogwai.html">MOGWAI</a>
+          </li>
         <li class="nav-item">
           <a class="nav-link" href="tesseract.html">TESSERACT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="anathema.html">ANATHEMA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mogwai.html">MOGWAI</a>
         </li>
       </ul>
     </div>
@@ -55,9 +55,7 @@
 
   <div class="container" style="margin-top:30px">
     <div class="row">
-
       <div class="col-sm-12">
-
         <div id="bandImages" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#bandImages" data-slide-to="0" class="active"></li>
@@ -67,16 +65,24 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="images/tool1.jpg" alt="toolband">
+              <a href="tool.html" target="_self">
+                <img class="d-block w-100" src="images/tool1.jpg" alt="toolband">
+              </a>
             </div>
             <div class="carousel-item">
+                <a href="mogwai.html" target="_self">
               <img class="d-block w-100" src="images/mogwai1.jpg" alt="mogwai">
+              </a>
             </div>
             <div class="carousel-item">
+                <a href="tesseract.html" target="_self">
               <img class="d-block w-100" src="images/tesseract1.jpg" alt="tesseract">
+              </a>
             </div>
             <div class="carousel-item">
+                <a href="anathema.html" target="_self">
               <img class="d-block w-100" src="images/anathema1.jpeg" alt="anathema">
+              </a>
             </div>
           </div>
           <a class="carousel-control-prev" href="#bandImages" role="button" data-slide="prev">
@@ -91,9 +97,10 @@
       </div>
     </div>
   </div>
+
   <div id="footer" class="jumbotron text-center" style="margin-bottom:0">
     <div class="footer">
-      <h2>Official Websites</h2>
+      <h2>Official Band Websites</h2>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link" href="https://toolband.com/releases/">Tool</a>

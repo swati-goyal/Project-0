@@ -17,12 +17,22 @@ div > a {
   padding: 5px;
   margin: 3px;
   text-align: center;
-  border-color: blue;
+  border-color: rosybrown;
   color:black;
 }
 
-.picture{
-  align-self: flex-start;
+div > img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
+  align-self: auto;
+  position: relative;
+  left: 30%;
+  transform: translateX(-100%);
+  margin-block-end: 20px;
+  margin-block-start: 20px;
+}
+
+body {
+  background-color: #D6D3DC;
 }
