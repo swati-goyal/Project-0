@@ -31,13 +31,24 @@ div > img {
   height: 200px;
   object-fit: cover;
   position: relative;
-  left: 20%;
-  margin-block-end: 20px;
-  margin-block-start: 20px;
+}
+
+#discography {
+  font: outline;
 }
 
 body {
   background-color: #D6D3DC;
+}
+
+@media (max-width: 499px) {
+  div > img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=bands.css.map */
