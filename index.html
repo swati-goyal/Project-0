@@ -13,8 +13,17 @@
     margin-block-start: 20px;
   }
   img {
-    height: 700px;
+    object-fit: cover;
+    width: 500px;
+    height: 600px;
   }
+  @media(max-width:499px) {
+    img{
+      object-fit: cover;
+      width: auto;
+      height: 300px;}
+    }
+  
   @media(min-width:768px) {
     .nav.justify-content-center{
       position: relative;

@@ -1,16 +1,21 @@
-#band-name {
-  padding: 20px;
-  font-weight:bold;
-  font-size: 40px;
-  font-family: Arial;
+p {
+  font-size: 20px;
   text-align: center;
+  padding: 20px;
+}
+
+div#band-name {
+  font: 40px bold arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  margin: auto;
 }
 
 #header {
   border: 5px #1C6EA4;
   width: 100%;
   text-align: center;
-  padding:20px;
+  padding: 20px;
 }
 
 div > a {
@@ -18,17 +23,15 @@ div > a {
   margin: 3px;
   text-align: center;
   border-color: rosybrown;
-  color:black;
+  color: black;
 }
 
 div > img {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  align-self: auto;
   position: relative;
-  left: 30%;
-  transform: translateX(-100%);
+  left: 20%;
   margin-block-end: 20px;
   margin-block-start: 20px;
 }
@@ -36,3 +39,5 @@ div > img {
 body {
   background-color: #D6D3DC;
 }
+
+/*# sourceMappingURL=bands.css.map */

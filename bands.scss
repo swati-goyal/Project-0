@@ -1,17 +1,45 @@
-%band-name {
-  font: sans-serif;
-  font-size: 14px;
-  font-style: italic;
+$band-name-padding: 40px;
+$band-name-font: 40px bold arial, sans-serif;
+
+p {
+  font-size: 20px;
   text-align: center;
-  padding: 40px;
+  padding: 20px
+}
+
+
+div#band-name{
+  font:$band-name-font;
+  text-align: center;
+  padding: $band-name-padding;
   margin: auto;
 }
 
-p {
-  font-size: 10px;
-  text-align: left;
+#header {
+  border: 5px #1C6EA4;
+  width: 100%;
+  text-align: center;
+  padding:20px;
 }
 
-h2 {
-  .band-name: %band-name;
+div > a {
+  padding: 5px;
+  margin: 3px;
+  text-align: center;
+  border-color: rosybrown;
+  color:black;
+}
+
+div > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  left:20%;
+  margin-block-end: 20px;
+  margin-block-start: 20px;
+}
+
+body {
+  background-color: #D6D3DC;
 }
