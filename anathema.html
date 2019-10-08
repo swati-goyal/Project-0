@@ -13,21 +13,23 @@
   <link rel="stylesheet" href="bands.css">
   <title>Anathema</title>
   <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      overflow: hidden;
+      padding-block-start: 10px;
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
-    </style>
+    }
+  </style>
 </head>
 
 <body>
@@ -60,185 +62,216 @@
   </header>
   <main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Band Description</h1>
-                <p>Anathema are a British rock band from Liverpool. The line-up consists of singers and guitarists Vincent and Daniel
-                    Cavanagh, their brother Jamie Cavanagh on bass, drummer John Douglas, singer Lee Douglas, and keyboardist/drummer
-                    Daniel Cardoso since November 2012.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
-            </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="./images/anathema/anathema-11.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+        </div>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="./images/anathema/anathema-2.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+          <div class="container">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="./images/anathema/anathema-9.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+          <div class="container">
+          </div>
+        </div>
       </div>
-    
-    
-      <!-- Marketing messaging and featurettes
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Band Members and Studio Albums
       ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-    
-      <div class="container band-members">
-    
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/leedouglas.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-            <h2>Lee Douglas</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/danielcardoso.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/davidcavanagh.jpeg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-        <div class="row">
-            <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/jamiecavanagh.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/vincentcavanagh.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-    
-    
-        <!-- START THE FEATURETTES -->
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <hr class="featurette-divider">
+    <div class="container band-members">
 
-        <div id="discography" class="table-responsive">
-            <table class="table">
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Album Name</th>
-                  <th scope="col">Release Date</th>
-                  <th scope="col">Playlist Link</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    
-        <hr class="featurette-divider">
-    
-        <!-- /END THE FEATURETTES -->
-    
-      </div><!-- /.container -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/anathema/leedouglas.jpg"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>Lee Douglas</h2>
+          <p>Lead and Backing Vocals</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+            src="images/anathema/danielcardoso.jpg" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>Daniel Cardoso</h2>
+          <p>Keyboardist/Drummer</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/anathema/johndouglas.jpeg"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>John Douglas</h2>
+          <p>Drummer</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+            src="images/anathema/jamiecavanagh.jpg" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>Jamie Cavanagh</h2>
+          <p>Bass Guitarist</p>
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+            src="images/anathema/vincentcavanagh.jpg" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>Vincent Cavanagh</h2>
+          <p>Singer and Guitarist</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+            src="images/anathema/davidcavanagh.jpeg" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <h2>Daniel Cavanagh</h2>
+          <p>Singer and Guitarist</p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div id="discography" class="table-responsive">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Studio Albums</th>
+              <th scope="col">Release Date</th>
+              <th scope="col">Playlist Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Serenades</td>
+              <td>15 February 1993</td>
+              <td><a href="https://www.youtube.com/watch?v=rkJauTCYThU">Anathema - Serenades (Full Album)</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>The Silent Enigma</td>
+              <td>17 August 1995</td>
+              <td><a href="https://www.youtube.com/watch?v=LwI8Ka-7JyI">Anathema - The Silent Enigma (FULL ALBUM)</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Eternity</td>
+              <td>11 November 1996</td>
+              <td><a href="https://www.youtube.com/watch?v=TC3yiwrjbMU">Anathema Eternity FULL ALBUM</a></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Alternative 4</td>
+              <td>22 June 1998</td>
+              <td><a href="https://www.youtube.com/watch?v=u0gL75ptUto">ANATHEMA Alternative 4 FULL ALBUM HD</a></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Judgement</td>
+              <td>21 June 1999</td>
+              <td><a href="https://www.youtube.com/watch?v=7MSEynX0lKg&t=1508s">Anathema - Judgement (FULL ALBUM)</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>A fine day to Exit</td>
+              <td>9 October 2001</td>
+              <td><a href="https://www.youtube.com/watch?v=O20UHVi39R8">Anathema - A Fine Day to Exit (FULL ALBUM)</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>A Natural Disaster</td>
+              <td>3 November 2003</td>
+              <td><a href="https://www.youtube.com/watch?v=xfIAy4dsR7Q">Anathema - A Natural Disaster (FULL ALBUM)</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>We're here because we are here</td>
+              <td>31 May 2010</td>
+              <td><a href="https://www.youtube.com/watch?v=zWBpiMsZ8VU&t=2112s">Anathema - We're Here Because We're Here
+                  [2010] FULL ALBUM</a></td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Weather Systems</td>
+              <td>16 April 2012</td>
+              <td><a href="https://www.youtube.com/watch?v=H7EZkJkZYGU">Anathema - Weather Systems 2012 (Full Album)</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Distant Satellites</td>
+              <td>9 June 2014</td>
+              <td><a href="https://www.youtube.com/watch?v=J1pkkCmBgCk">Anathema - Distant Satellites [Full Album]</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>The Optimist</td>
+              <td>9 June 2017</td>
+              <td><a href="https://www.youtube.com/watch?v=AYmbDjGnpQ8">Anathema - The Optimist (FULL ALBUM)</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; <a href="https://www.anathemamusic.com/music/">Anathema</a> &middot; <a
+          href="https://en.wikipedia.org/wiki/Anathema_discography">Discography</a></p>
+    </footer>
+  </main>
 </body>
 
 </html>
