@@ -7,3 +7,5 @@ Basic HTML and CSS - CS50W 2019 Project 0
 * For all band pages there is one band.scss which generates bands.css
 * Index page has few stylings which are placed in the head of the html doc
 * There is a separate folder for images which are used on these pages
+
+Hosted at GH Pages: https://swati-goyal.github.io/Project-0/
